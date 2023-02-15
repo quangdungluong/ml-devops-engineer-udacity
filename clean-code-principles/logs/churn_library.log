@@ -1,0 +1,9 @@
+root - INFO - Create raw data fixture: SUCCESS
+root - INFO - Testing import_data: SUCCESS
+root - INFO - Testing perform_eda: SUCCESS
+root - INFO - Create encoded df fixture: SUCCESS
+root - INFO - Testing encoder_helper: SUCCESS
+root - INFO - Create feature engineering df fixture: SUCCESS
+root - INFO - Testing perform_feature_engineering: SUCCESS
+root - INFO - Testing train_models: SUCCESS
+root - INFO - Testing generate_report: SUCCESS
