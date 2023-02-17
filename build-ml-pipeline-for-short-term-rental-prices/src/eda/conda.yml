@@ -1,0 +1,11 @@
+name: eda
+dependencies:
+  - python=3.6
+  - pip=20.3.3
+  - pip:
+      - wandb==0.10.31
+      - pyarrow==2.0
+      - pandas-profiling==2.11.0
+      - jupyterlab==3.0.12
+      - seaborn==0.11.1
+      - pandas
