@@ -1,16 +1,18 @@
 """
-API
+Implement RestAPI
 
 Author: quangdungluong
 Date: February 20, 2023
 """
+import os
+import pickle
+
 import pandas as pd
 from fastapi import FastAPI
-from pydantic import Field, BaseModel
+from pydantic import BaseModel, Field
+
 from starter.ml.data import process_data
 from starter.ml.model import inference
-import pickle
-import os
 
 dir = os.path.dirname(__file__)
 app = FastAPI()

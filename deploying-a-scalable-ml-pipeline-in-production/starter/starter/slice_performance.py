@@ -1,9 +1,17 @@
+"""
+A function that computes model metrics on slices of the data.
+
+Author: quangdungluong
+Date: February 20, 2023
+"""
 import os
-import sys
-import pandas as pd
 import pickle
+import sys
+
+import pandas as pd
 from ml.data import process_data
 from ml.model import compute_model_metrics, inference
+
 
 def metrics(data, gt, pred, feature, categorical_features, save_path):
     with open(save_path, 'a') as f:
