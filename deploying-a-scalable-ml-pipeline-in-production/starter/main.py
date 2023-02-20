@@ -52,6 +52,7 @@ async def model_inference(sample_data: SampleData):
         "sex",
         "native-country",
     ]
-    X, _, _, _ = process_data(X, cat_features, label=None, training=False, encoder=encoder, lb=lb)
+    X, _, _, _ = process_data(data, cat_features, label=None, training=False, encoder=encoder, lb=lb)
     prediction = inference(model, X)
+    print(prediction)
     return lb.inverse_transform(prediction)[0]

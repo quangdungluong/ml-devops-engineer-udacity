@@ -11,19 +11,19 @@ def test_welcome():
 
 def test_inference_greater_50k():
     data = {
-        'age': 52,
-        'workclass': 'Self-emp-not-inc',
-        'fnlgt': 209642,
-        'education': 'HS-grad',
-        'education_num': 9,
-        'marital_status': 'Married-civ-spouse',
-        'occupation': 'Exec-managerial',
-        'relationship': 'Husband',
+        'age': 33,
+        'workclass': 'Local-gov',
+        'fnlgt': 198183,
+        'education': 'Bachelors',
+        'education_num': 13,
+        'marital_status': 'Never-married',
+        'occupation': 'Prof-specialty',
+        'relationship': 'Not-in-family',
         'race': 'White',
-        'sex': 'Male',
+        'sex': 'Female',
         'capital_gain': 0,
         'capital_loss': 0,
-        'hours_per_week': 45,
+        'hours_per_week': 50,
         'native_country': 'United-States'
     }
     request = client.post("/", data=json.dumps(data))

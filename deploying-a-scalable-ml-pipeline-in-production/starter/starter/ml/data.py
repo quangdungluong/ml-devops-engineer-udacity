@@ -3,6 +3,18 @@ from sklearn.preprocessing import LabelBinarizer, OneHotEncoder
 
 def remove_spaces(df):
     df.columns = [" ".join(column.split()) for column in df.columns]
+    cat_features = [
+        "workclass",
+        "education",
+        "marital-status",
+        "occupation",
+        "relationship",
+        "race",
+        "sex",
+        "native-country",
+    ]
+    for feature in cat_features:
+        df[feature] = df[feature].str.strip()
     return df
 
 def process_data(

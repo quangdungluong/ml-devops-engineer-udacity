@@ -21,7 +21,10 @@ data = pd.read_csv("../data/census.csv")
 # Remove All spaces
 data = remove_spaces(data)
 # Optional enhancement, use K-fold cross validation instead of a train-test split.
-train, test = train_test_split(data, test_size=0.20)
+train, test = train_test_split(data, test_size=0.20, random_state=42)
+# Save train_df and test_df to csv
+train.to_csv("../data/train_df.csv", index=False)
+test.to_csv("../data/test_df.csv", index=False)
 
 cat_features = [
     "workclass",
