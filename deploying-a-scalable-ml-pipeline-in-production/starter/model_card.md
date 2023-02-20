@@ -8,13 +8,26 @@ Use `RandomForestClassifier` with default parameters for classified problem.
 
 ## Intended Use
 
+Classify employee's salary into `<=50K` and `>50K` based on some information.
+
 ## Training Data
+
+Census Bureau dataset is used for training and evaluation.
 
 ## Evaluation Data
 
+20% of original data is used for evaluation. `train_test_split` with `random_state=42` split data into training and evaluation dataset.
+
 ## Metrics
-_Please include the metrics used and your model's performance on those metrics._
+Metrics used for evaluate model are `Precision`, `Recall`, and `Fbeta`.
+- Precision: 0.744
+- Recall: 0.631
+- Fbeta: 0.683
 
 ## Ethical Considerations
 
+In progress
+
 ## Caveats and Recommendations
+
+In progress

@@ -14,9 +14,9 @@ import os
 
 dir = os.path.dirname(__file__)
 app = FastAPI()
-model = pickle.load(open(f"{dir}/model/rf_model.pkl", 'rb'))
-encoder = pickle.load(open(f"{dir}/model/encoder.pkl", 'rb'))
-lb = pickle.load(open(f"{dir}/model/lb.pkl", 'rb'))
+model = pickle.load(open(os.path.join(dir, "./model/rf_model.pkl"), 'rb'))
+encoder = pickle.load(open(os.path.join(dir, "./model/encoder.pkl"), 'rb'))
+lb = pickle.load(open(os.path.join(dir, "./model/lb.pkl"), 'rb'))
 
 class SampleData(BaseModel):
     age: int = Field(None, example=50)

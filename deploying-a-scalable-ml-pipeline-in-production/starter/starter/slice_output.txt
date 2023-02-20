@@ -1,0 +1,313 @@
+Model Performance on slices with fixed value is: workclass
+Feature workclass = Private
+Precision: 0.739, Recall: 0.640, fbeta: 0.686
+-------------------------------------------------
+Feature workclass = State-gov
+Precision: 0.735, Recall: 0.685, fbeta: 0.709
+-------------------------------------------------
+Feature workclass = Self-emp-not-inc
+Precision: 0.718, Recall: 0.471, fbeta: 0.569
+-------------------------------------------------
+Feature workclass = Self-emp-inc
+Precision: 0.780, Recall: 0.780, fbeta: 0.780
+-------------------------------------------------
+Feature workclass = Federal-gov
+Precision: 0.791, Recall: 0.757, fbeta: 0.774
+-------------------------------------------------
+Feature workclass = Local-gov
+Precision: 0.757, Recall: 0.709, fbeta: 0.732
+-------------------------------------------------
+Feature workclass = ?
+Precision: 0.704, Recall: 0.452, fbeta: 0.551
+-------------------------------------------------
+Feature workclass = Without-pay
+Precision: 1.000, Recall: 1.000, fbeta: 1.000
+-------------------------------------------------
+##########
+Model Performance on slices with fixed value is: education
+Feature education = Some-college
+Precision: 0.705, Recall: 0.552, fbeta: 0.619
+-------------------------------------------------
+Feature education = HS-grad
+Precision: 0.661, Recall: 0.429, fbeta: 0.520
+-------------------------------------------------
+Feature education = Bachelors
+Precision: 0.751, Recall: 0.724, fbeta: 0.738
+-------------------------------------------------
+Feature education = Masters
+Precision: 0.835, Recall: 0.855, fbeta: 0.845
+-------------------------------------------------
+Feature education = Assoc-acdm
+Precision: 0.692, Recall: 0.574, fbeta: 0.628
+-------------------------------------------------
+Feature education = 7th-8th
+Precision: 0.500, Recall: 0.167, fbeta: 0.250
+-------------------------------------------------
+Feature education = 11th
+Precision: 1.000, Recall: 0.273, fbeta: 0.429
+-------------------------------------------------
+Feature education = Assoc-voc
+Precision: 0.618, Recall: 0.540, fbeta: 0.576
+-------------------------------------------------
+Feature education = Prof-school
+Precision: 0.830, Recall: 0.929, fbeta: 0.876
+-------------------------------------------------
+Feature education = 9th
+Precision: 1.000, Recall: 0.333, fbeta: 0.500
+-------------------------------------------------
+Feature education = 5th-6th
+Precision: 1.000, Recall: 0.500, fbeta: 0.667
+-------------------------------------------------
+Feature education = 10th
+Precision: 0.333, Recall: 0.167, fbeta: 0.222
+-------------------------------------------------
+Feature education = Doctorate
+Precision: 0.855, Recall: 0.930, fbeta: 0.891
+-------------------------------------------------
+Feature education = 12th
+Precision: 1.000, Recall: 0.400, fbeta: 0.571
+-------------------------------------------------
+Feature education = 1st-4th
+Precision: 1.000, Recall: 1.000, fbeta: 1.000
+-------------------------------------------------
+Feature education = Preschool
+Precision: 1.000, Recall: 1.000, fbeta: 1.000
+-------------------------------------------------
+##########
+Model Performance on slices with fixed value is: marital-status
+Feature marital-status = Divorced
+Precision: 0.760, Recall: 0.369, fbeta: 0.497
+-------------------------------------------------
+Feature marital-status = Married-civ-spouse
+Precision: 0.739, Recall: 0.695, fbeta: 0.716
+-------------------------------------------------
+Feature marital-status = Never-married
+Precision: 0.792, Recall: 0.408, fbeta: 0.538
+-------------------------------------------------
+Feature marital-status = Separated
+Precision: 1.000, Recall: 0.421, fbeta: 0.593
+-------------------------------------------------
+Feature marital-status = Widowed
+Precision: 1.000, Recall: 0.158, fbeta: 0.273
+-------------------------------------------------
+Feature marital-status = Married-spouse-absent
+Precision: 1.000, Recall: 0.250, fbeta: 0.400
+-------------------------------------------------
+Feature marital-status = Married-AF-spouse
+Precision: 1.000, Recall: 0.000, fbeta: 0.000
+-------------------------------------------------
+##########
+Model Performance on slices with fixed value is: occupation
+Feature occupation = Adm-clerical
+Precision: 0.628, Recall: 0.510, fbeta: 0.563
+-------------------------------------------------
+Feature occupation = Exec-managerial
+Precision: 0.791, Recall: 0.743, fbeta: 0.766
+-------------------------------------------------
+Feature occupation = Machine-op-inspct
+Precision: 0.576, Recall: 0.404, fbeta: 0.475
+-------------------------------------------------
+Feature occupation = Craft-repair
+Precision: 0.688, Recall: 0.475, fbeta: 0.562
+-------------------------------------------------
+Feature occupation = Prof-specialty
+Precision: 0.792, Recall: 0.778, fbeta: 0.785
+-------------------------------------------------
+Feature occupation = Sales
+Precision: 0.739, Recall: 0.677, fbeta: 0.707
+-------------------------------------------------
+Feature occupation = Handlers-cleaners
+Precision: 0.571, Recall: 0.333, fbeta: 0.421
+-------------------------------------------------
+Feature occupation = Other-service
+Precision: 0.625, Recall: 0.192, fbeta: 0.294
+-------------------------------------------------
+Feature occupation = Protective-serv
+Precision: 0.774, Recall: 0.571, fbeta: 0.658
+-------------------------------------------------
+Feature occupation = Priv-house-serv
+Precision: 1.000, Recall: 1.000, fbeta: 1.000
+-------------------------------------------------
+Feature occupation = Transport-moving
+Precision: 0.596, Recall: 0.438, fbeta: 0.505
+-------------------------------------------------
+Feature occupation = ?
+Precision: 0.704, Recall: 0.452, fbeta: 0.551
+-------------------------------------------------
+Feature occupation = Farming-fishing
+Precision: 0.600, Recall: 0.214, fbeta: 0.316
+-------------------------------------------------
+Feature occupation = Tech-support
+Precision: 0.692, Recall: 0.706, fbeta: 0.699
+-------------------------------------------------
+Feature occupation = Armed-Forces
+Precision: 1.000, Recall: 1.000, fbeta: 1.000
+-------------------------------------------------
+##########
+Model Performance on slices with fixed value is: relationship
+Feature relationship = Not-in-family
+Precision: 0.784, Recall: 0.404, fbeta: 0.533
+-------------------------------------------------
+Feature relationship = Wife
+Precision: 0.702, Recall: 0.692, fbeta: 0.697
+-------------------------------------------------
+Feature relationship = Husband
+Precision: 0.743, Recall: 0.696, fbeta: 0.719
+-------------------------------------------------
+Feature relationship = Unmarried
+Precision: 0.923, Recall: 0.267, fbeta: 0.414
+-------------------------------------------------
+Feature relationship = Own-child
+Precision: 1.000, Recall: 0.176, fbeta: 0.300
+-------------------------------------------------
+Feature relationship = Other-relative
+Precision: 0.750, Recall: 0.375, fbeta: 0.500
+-------------------------------------------------
+##########
+Model Performance on slices with fixed value is: race
+Feature race = White
+Precision: 0.744, Recall: 0.641, fbeta: 0.689
+-------------------------------------------------
+Feature race = Black
+Precision: 0.725, Recall: 0.569, fbeta: 0.638
+-------------------------------------------------
+Feature race = Other
+Precision: 1.000, Recall: 0.667, fbeta: 0.800
+-------------------------------------------------
+Feature race = Asian-Pac-Islander
+Precision: 0.763, Recall: 0.726, fbeta: 0.744
+-------------------------------------------------
+Feature race = Amer-Indian-Eskimo
+Precision: 0.714, Recall: 0.500, fbeta: 0.588
+-------------------------------------------------
+##########
+Model Performance on slices with fixed value is: sex
+Feature sex = Female
+Precision: 0.713, Recall: 0.511, fbeta: 0.595
+-------------------------------------------------
+Feature sex = Male
+Precision: 0.749, Recall: 0.664, fbeta: 0.704
+-------------------------------------------------
+##########
+Model Performance on slices with fixed value is: native-country
+Feature native-country = United-States
+Precision: 0.744, Recall: 0.636, fbeta: 0.685
+-------------------------------------------------
+Feature native-country = Mexico
+Precision: 1.000, Recall: 0.333, fbeta: 0.500
+-------------------------------------------------
+Feature native-country = Puerto-Rico
+Precision: 0.833, Recall: 0.833, fbeta: 0.833
+-------------------------------------------------
+Feature native-country = El-Salvador
+Precision: 0.500, Recall: 1.000, fbeta: 0.667
+-------------------------------------------------
+Feature native-country = ?
+Precision: 0.714, Recall: 0.645, fbeta: 0.678
+-------------------------------------------------
+Feature native-country = Columbia
+Precision: 1.000, Recall: 1.000, fbeta: 1.000
+-------------------------------------------------
+Feature native-country = Poland
+Precision: 0.500, Recall: 1.000, fbeta: 0.667
+-------------------------------------------------
+Feature native-country = Cambodia
+Precision: 1.000, Recall: 1.000, fbeta: 1.000
+-------------------------------------------------
+Feature native-country = Germany
+Precision: 0.769, Recall: 0.769, fbeta: 0.769
+-------------------------------------------------
+Feature native-country = Philippines
+Precision: 1.000, Recall: 0.750, fbeta: 0.857
+-------------------------------------------------
+Feature native-country = Canada
+Precision: 0.714, Recall: 0.625, fbeta: 0.667
+-------------------------------------------------
+Feature native-country = Ecuador
+Precision: 1.000, Recall: 0.500, fbeta: 0.667
+-------------------------------------------------
+Feature native-country = Italy
+Precision: 0.750, Recall: 0.750, fbeta: 0.750
+-------------------------------------------------
+Feature native-country = Cuba
+Precision: 0.667, Recall: 0.800, fbeta: 0.727
+-------------------------------------------------
+Feature native-country = Iran
+Precision: 0.333, Recall: 0.200, fbeta: 0.250
+-------------------------------------------------
+Feature native-country = Jamaica
+Precision: 1.000, Recall: 1.000, fbeta: 1.000
+-------------------------------------------------
+Feature native-country = Haiti
+Precision: 1.000, Recall: 1.000, fbeta: 1.000
+-------------------------------------------------
+Feature native-country = South
+Precision: 0.333, Recall: 0.500, fbeta: 0.400
+-------------------------------------------------
+Feature native-country = Taiwan
+Precision: 0.800, Recall: 1.000, fbeta: 0.889
+-------------------------------------------------
+Feature native-country = Dominican-Republic
+Precision: 1.000, Recall: 1.000, fbeta: 1.000
+-------------------------------------------------
+Feature native-country = Ireland
+Precision: 1.000, Recall: 1.000, fbeta: 1.000
+-------------------------------------------------
+Feature native-country = Japan
+Precision: 0.750, Recall: 0.750, fbeta: 0.750
+-------------------------------------------------
+Feature native-country = Scotland
+Precision: 1.000, Recall: 1.000, fbeta: 1.000
+-------------------------------------------------
+Feature native-country = India
+Precision: 0.778, Recall: 0.875, fbeta: 0.824
+-------------------------------------------------
+Feature native-country = Trinadad&Tobago
+Precision: 1.000, Recall: 1.000, fbeta: 1.000
+-------------------------------------------------
+Feature native-country = Hungary
+Precision: 1.000, Recall: 0.500, fbeta: 0.667
+-------------------------------------------------
+Feature native-country = England
+Precision: 0.667, Recall: 0.500, fbeta: 0.571
+-------------------------------------------------
+Feature native-country = Laos
+Precision: 1.000, Recall: 0.000, fbeta: 0.000
+-------------------------------------------------
+Feature native-country = Hong
+Precision: 0.500, Recall: 1.000, fbeta: 0.667
+-------------------------------------------------
+Feature native-country = Greece
+Precision: 0.000, Recall: 0.000, fbeta: 0.000
+-------------------------------------------------
+Feature native-country = Portugal
+Precision: 1.000, Recall: 1.000, fbeta: 1.000
+-------------------------------------------------
+Feature native-country = Guatemala
+Precision: 1.000, Recall: 1.000, fbeta: 1.000
+-------------------------------------------------
+Feature native-country = China
+Precision: 1.000, Recall: 1.000, fbeta: 1.000
+-------------------------------------------------
+Feature native-country = France
+Precision: 1.000, Recall: 1.000, fbeta: 1.000
+-------------------------------------------------
+Feature native-country = Nicaragua
+Precision: 1.000, Recall: 1.000, fbeta: 1.000
+-------------------------------------------------
+Feature native-country = Vietnam
+Precision: 1.000, Recall: 1.000, fbeta: 1.000
+-------------------------------------------------
+Feature native-country = Thailand
+Precision: 1.000, Recall: 1.000, fbeta: 1.000
+-------------------------------------------------
+Feature native-country = Peru
+Precision: 0.000, Recall: 0.000, fbeta: 0.000
+-------------------------------------------------
+Feature native-country = Honduras
+Precision: 1.000, Recall: 1.000, fbeta: 1.000
+-------------------------------------------------
+Feature native-country = Yugoslavia
+Precision: 1.000, Recall: 1.000, fbeta: 1.000
+-------------------------------------------------
+##########

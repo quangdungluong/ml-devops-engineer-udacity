@@ -20,6 +20,7 @@ from ml.model import compute_model_metrics, inference, train_model
 data = pd.read_csv("../data/census.csv")
 # Remove All spaces
 data = remove_spaces(data)
+data.to_csv("../data/clean_census.csv", index=False)
 # Optional enhancement, use K-fold cross validation instead of a train-test split.
 train, test = train_test_split(data, test_size=0.20, random_state=42)
 # Save train_df and test_df to csv
