@@ -26,8 +26,8 @@ Metrics used for evaluate model are `Precision`, `Recall`, and `Fbeta`.
 
 ## Ethical Considerations
 
-In progress
+This project was used for educational purposes only.
 
 ## Caveats and Recommendations
 
-In progress
+Model hyperparameters and selected features are default. Maybe try tuning the hyperparameters and choosing better features to improve the model's performance.

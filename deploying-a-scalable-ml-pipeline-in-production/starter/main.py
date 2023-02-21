@@ -16,9 +16,10 @@ from starter.ml.model import inference
 
 dir = os.path.dirname(__file__)
 app = FastAPI()
-model = pickle.load(open(os.path.join(dir, "./model/rf_model.pkl"), 'rb'))
-encoder = pickle.load(open(os.path.join(dir, "./model/encoder.pkl"), 'rb'))
-lb = pickle.load(open(os.path.join(dir, "./model/lb.pkl"), 'rb'))
+
+
+def hyphen_to_underscore(field_name):
+    return f"{field_name}".replace("_", "-")
 
 class SampleData(BaseModel):
     age: int = Field(None, example=50)
@@ -36,6 +37,17 @@ class SampleData(BaseModel):
     hours_per_week: int = Field(None, example=13)
     native_country: str = Field(None, example="United-States")
 
+    class Config:
+        alias_generator = hyphen_to_underscore
+        allow_population_by_field_name = True
+
+@app.on_event("startup")
+async def startup():
+    global model, encoder, lb
+    model = pickle.load(open(os.path.join(dir, "./model/rf_model.pkl"), 'rb'))
+    encoder = pickle.load(open(os.path.join(dir, "./model/encoder.pkl"), 'rb'))
+    lb = pickle.load(open(os.path.join(dir, "./model/lb.pkl"), 'rb'))
+    
 @app.get("/")
 async def welcome():
     return "Welcome to the homepage"
